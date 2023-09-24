@@ -11,13 +11,17 @@ body{
 }
 
 .holder{
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 header{
   background-color: #C9C283;
   padding: 10px 0;
+  display: block;
+}
+header img{
+  width: 100px;
 }
 header h1{
   

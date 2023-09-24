@@ -1,0 +1,80 @@
+.titular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.imagen-titular img {
+  max-width: 30%;
+  height: 300px;
+}
+
+.titular-principal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(148, 145, 145, 0.7);
+  color: gold;
+  padding: 20px;
+  text-align: center;
+}
+
+.image-texto h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.image-texto p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.enlace-solicitud {
+  color: gold; 
+  text-decoration: none; 
+  font-weight: bold;
+  border:1px solid blue;
+  padding: 10px 20px;
+  position: relative;
+  top:30px;
+}
+.enlace-solicitud:hover {
+  text-decoration: underline; 
+  background-color:#C9C283 ;
+  color: white; 
+  
+}
+.columna-lugar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.columna-lugar .columna-casamiento {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.columna-lugar .columna-baile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.columna-lugar img {
+  max-width: 50%;
+  height: 400px;
+  border: 5px solid blue;
+}
+
+
