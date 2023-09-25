@@ -8,7 +8,7 @@ import Footer from './componentes/layout/Footer';
 
 import Contactos from './componentes/paginas/Contactos';
 import Home from './componentes/paginas/Home';
-import Nosotros from './componentes/paginas/Nosotros';
+import Eventos from './componentes/paginas/Eventos';
 import Novedades from './componentes/paginas/Novedades';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Nav />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/nosotros" exact element={<Nosotros />} />
+          <Route path="/eventos" exact element={<Eventos />} />
           <Route path="/novedades" exact element={<Novedades />} />
           <Route path="/contacto" exact element={<Contactos />} />
         </Routes>

@@ -1,4 +1,4 @@
-import '../estilos/index.css';
+import '../estilos/home.css';
 
 
 const Home = () => {
