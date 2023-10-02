@@ -9,7 +9,7 @@ import Footer from './componentes/layout/Footer';
 import Contactos from './componentes/paginas/Contactos';
 import Home from './componentes/paginas/Home';
 import Eventos from './componentes/paginas/Eventos';
-import Novedades from './componentes/paginas/Novedades';
+import Servicios from './componentes/paginas/Servicios';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/eventos" exact element={<Eventos />} />
-          <Route path="/novedades" exact element={<Novedades />} />
+          <Route path="/Servicios" exact element={<Servicios />} />
           <Route path="/contacto" exact element={<Contactos />} />
         </Routes>
       </BrowserRouter>
