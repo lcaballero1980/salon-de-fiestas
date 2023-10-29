@@ -14,8 +14,9 @@ import Servicios from './componentes/paginas/Servicios';
 function App() {
   return (
     <div className="App">
-      <Header />
+
       <BrowserRouter>
+        <Header />
         <Nav />
         <Routes>
           <Route path="/" exact element={<Home />} />

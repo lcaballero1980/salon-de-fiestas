@@ -15,7 +15,7 @@ const Home = () => {
       <div className='holder'>
         <div className='columna-lugar'>
           <div className='columna-casamiento'>
-            <img className='img-lugar' src='/img/imagenes-titular/casamiento.jpg' />
+            <img className='img-lugar' src='/img/imagenes-titular/casamiento.jpg' alt=''/>
             <div>
               <h3>Viví tu experiencia a Puro</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus voluptate soluta enim molestias
@@ -26,7 +26,7 @@ const Home = () => {
             </div>
           </div>
           <div className='columna-baile'>
-            <img className='img-lugar' src='/img/imagenes-titular/baile.jpg' />
+            <img className='img-lugar' src='/img/imagenes-titular/baile.jpg' alt='' />
             <div>
               <h3>No hay límites para soñar</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates excepturi totam temporibus porro
