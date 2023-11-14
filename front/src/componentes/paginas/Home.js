@@ -37,7 +37,7 @@ const Home = () => {
             nostrum nam neque minima, eum libero.</p>
         </div>
         <div className="clearfix image-container">
-          
+
           <h3>El Catering</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates
             excepturi totam temporibus porro impedit dicta. Distinctio cum
@@ -51,7 +51,7 @@ const Home = () => {
             culpa, dolore rerum quo commodi magnam, ipsa maxime ut veniam!
             Inventore, officia deserunt. Dolorem saepe accusantium dolore nisi
             nostrum nam neque minima, eum libero.</p>
-            <img className="img2" src={musica} alt="Evento" />
+          <img className="img2" src={musica} alt="Evento" />
         </div>
         <div>
           <h3>Quienes somos</h3>
