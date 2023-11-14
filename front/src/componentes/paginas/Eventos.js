@@ -2,18 +2,16 @@ import '../estilos/eventos.css';
 
 const Eventos = () => {
   return (
-    <main class="holder">
-      <div>
+    <div className='holder'>
         <div className="titulo-eventos">
           <h2>Eventos Sociales</h2>
         </div>
         <div class="eventos">
           <div className="img">
-            
             <a target="_blank" href="imagenes/Eventos/Aniversario-1.jpg" >
               <img src="imagenes/Eventos/Aniversario-1.jpg" alt="Foto de Casamiento" />
             </a>
-            
+
             <a target="_blank" href="imagenes/Eventos/Bat.jpg">
               <img src="imagenes/Eventos/Bat.jpg" alt="Foto de persona en rueda en baile" />
             </a>
@@ -54,7 +52,7 @@ const Eventos = () => {
           </div>
         </div>
       </div>
-    </main>
+    
   );
 }
 export default Eventos;
