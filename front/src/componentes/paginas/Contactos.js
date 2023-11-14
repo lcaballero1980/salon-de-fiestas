@@ -4,7 +4,7 @@ const Contactos = () => {
   return (
     <div className="holder">
       <h3>ENVIANOS TU CONSULTA O SOLICITÁ TU PRESUPUESTO</h3>
-      <p>Consultá las condiciones y los servicios incluidos para cada tipo de Evento. Solicitanos tu presupuesto. Vení a visitarnos y Reservá tu fecha!!! </p>
+      <p>Consultá las condiciones y los servicios incluidos para cada tipo de evento y Solicitanos un presupuesto o vení a visitarnos y Reservá tu fecha!!!</p>
       <div className='fomulario-masinfo'>
         <div className="formulario">
           <form action="" method="post">
