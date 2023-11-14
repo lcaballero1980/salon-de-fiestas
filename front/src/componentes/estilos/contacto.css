@@ -29,8 +29,11 @@
   line-height:50px;
 }
 
-h3,
-p {
+h3, p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  padding: 20px 10px;
+  color: #000814;
   margin: 10px auto;
   text-align: center;
 }
@@ -64,7 +67,6 @@ button[type="submit"] {
   font-weight: bold;
   
 }
-
 button[type="submit"]:hover {
   background-color: #0056b3;
 }
