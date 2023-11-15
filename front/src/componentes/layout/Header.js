@@ -11,7 +11,7 @@ const Header = () => {
       <nav>
         <ul>
           <li><NavLink to="/" className={({ isActive }) => (isActive ? "activo" : undefined)}>Home</NavLink></li>
-          <li><NavLink to="/eventos" className={({ isActive }) => (isActive ? "activo" : undefined)}>Eventos</NavLink></li>
+          <li><NavLink to="/Galeria" className={({ isActive }) => (isActive ? "activo" : undefined)}>Galeria</NavLink></li>
           <li><NavLink to="/servicios" className={({ isActive }) => (isActive ? "activo" : undefined)}>Servicios</NavLink></li>
           <li><NavLink to="/contacto" className={({ isActive }) => (isActive ? "activo" : undefined)}>Contacto</NavLink></li>
         </ul>
